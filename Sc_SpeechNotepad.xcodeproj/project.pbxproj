@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1ED5DEB1FC6B7A00079C666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5DEA1FC6B7A00079C666 /* main.m */; };
+		E1ED5DEE1FC6B7A00079C666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5DED1FC6B7A00079C666 /* AppDelegate.m */; };
+		E1ED5DF11FC6B7A00079C666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5DF01FC6B7A00079C666 /* ViewController.m */; };
+		E1ED5DF41FC6B7A00079C666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ED5DF21FC6B7A00079C666 /* Main.storyboard */; };
+		E1ED5DF71FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5DF51FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodeld */; };
+		E1ED5DF91FC6B7A00079C666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1ED5DF81FC6B7A00079C666 /* Assets.xcassets */; };
+		E1ED5DFC1FC6B7A00079C666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ED5DFA1FC6B7A00079C666 /* LaunchScreen.storyboard */; };
+		E1ED5E071FC6B7A00079C666 /* Sc_SpeechNotepadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5E061FC6B7A00079C666 /* Sc_SpeechNotepadTests.m */; };
+		E1ED5E121FC6B7A00079C666 /* Sc_SpeechNotepadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ED5E111FC6B7A00079C666 /* Sc_SpeechNotepadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1ED5E031FC6B7A00079C666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1ED5DDE1FC6B7A00079C666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ED5DE51FC6B7A00079C666;
+			remoteInfo = Sc_SpeechNotepad;
+		};
+		E1ED5E0E1FC6B7A00079C666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1ED5DDE1FC6B7A00079C666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ED5DE51FC6B7A00079C666;
+			remoteInfo = Sc_SpeechNotepad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1ED5DE61FC6B7A00079C666 /* Sc_SpeechNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sc_SpeechNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ED5DEA1FC6B7A00079C666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1ED5DEC1FC6B7A00079C666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1ED5DED1FC6B7A00079C666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1ED5DEF1FC6B7A00079C666 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1ED5DF01FC6B7A00079C666 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1ED5DF31FC6B7A00079C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1ED5DF61FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sc_SpeechNotepad.xcdatamodel; sourceTree = "<group>"; };
+		E1ED5DF81FC6B7A00079C666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1ED5DFB1FC6B7A00079C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1ED5DFD1FC6B7A00079C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1ED5E021FC6B7A00079C666 /* Sc_SpeechNotepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sc_SpeechNotepadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ED5E061FC6B7A00079C666 /* Sc_SpeechNotepadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sc_SpeechNotepadTests.m; sourceTree = "<group>"; };
+		E1ED5E081FC6B7A00079C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1ED5E0D1FC6B7A00079C666 /* Sc_SpeechNotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sc_SpeechNotepadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1ED5E111FC6B7A00079C666 /* Sc_SpeechNotepadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sc_SpeechNotepadUITests.m; sourceTree = "<group>"; };
+		E1ED5E131FC6B7A00079C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1ED5DE31FC6B7A00079C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5DFF1FC6B7A00079C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5E0A1FC6B7A00079C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1ED5DDD1FC6B7A00079C666 = {
+			isa = PBXGroup;
+			children = (
+				E1ED5DE81FC6B7A00079C666 /* Sc_SpeechNotepad */,
+				E1ED5E051FC6B7A00079C666 /* Sc_SpeechNotepadTests */,
+				E1ED5E101FC6B7A00079C666 /* Sc_SpeechNotepadUITests */,
+				E1ED5DE71FC6B7A00079C666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1ED5DE71FC6B7A00079C666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED5DE61FC6B7A00079C666 /* Sc_SpeechNotepad.app */,
+				E1ED5E021FC6B7A00079C666 /* Sc_SpeechNotepadTests.xctest */,
+				E1ED5E0D1FC6B7A00079C666 /* Sc_SpeechNotepadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1ED5DE81FC6B7A00079C666 /* Sc_SpeechNotepad */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED5DEC1FC6B7A00079C666 /* AppDelegate.h */,
+				E1ED5DED1FC6B7A00079C666 /* AppDelegate.m */,
+				E1ED5DEF1FC6B7A00079C666 /* ViewController.h */,
+				E1ED5DF01FC6B7A00079C666 /* ViewController.m */,
+				E1ED5DF21FC6B7A00079C666 /* Main.storyboard */,
+				E1ED5DF81FC6B7A00079C666 /* Assets.xcassets */,
+				E1ED5DFA1FC6B7A00079C666 /* LaunchScreen.storyboard */,
+				E1ED5DFD1FC6B7A00079C666 /* Info.plist */,
+				E1ED5DF51FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodeld */,
+				E1ED5DE91FC6B7A00079C666 /* Supporting Files */,
+			);
+			path = Sc_SpeechNotepad;
+			sourceTree = "<group>";
+		};
+		E1ED5DE91FC6B7A00079C666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED5DEA1FC6B7A00079C666 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1ED5E051FC6B7A00079C666 /* Sc_SpeechNotepadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED5E061FC6B7A00079C666 /* Sc_SpeechNotepadTests.m */,
+				E1ED5E081FC6B7A00079C666 /* Info.plist */,
+			);
+			path = Sc_SpeechNotepadTests;
+			sourceTree = "<group>";
+		};
+		E1ED5E101FC6B7A00079C666 /* Sc_SpeechNotepadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED5E111FC6B7A00079C666 /* Sc_SpeechNotepadUITests.m */,
+				E1ED5E131FC6B7A00079C666 /* Info.plist */,
+			);
+			path = Sc_SpeechNotepadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1ED5DE51FC6B7A00079C666 /* Sc_SpeechNotepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ED5E161FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepad" */;
+			buildPhases = (
+				E1ED5DE21FC6B7A00079C666 /* Sources */,
+				E1ED5DE31FC6B7A00079C666 /* Frameworks */,
+				E1ED5DE41FC6B7A00079C666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sc_SpeechNotepad;
+			productName = Sc_SpeechNotepad;
+			productReference = E1ED5DE61FC6B7A00079C666 /* Sc_SpeechNotepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1ED5E011FC6B7A00079C666 /* Sc_SpeechNotepadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ED5E191FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepadTests" */;
+			buildPhases = (
+				E1ED5DFE1FC6B7A00079C666 /* Sources */,
+				E1ED5DFF1FC6B7A00079C666 /* Frameworks */,
+				E1ED5E001FC6B7A00079C666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1ED5E041FC6B7A00079C666 /* PBXTargetDependency */,
+			);
+			name = Sc_SpeechNotepadTests;
+			productName = Sc_SpeechNotepadTests;
+			productReference = E1ED5E021FC6B7A00079C666 /* Sc_SpeechNotepadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1ED5E0C1FC6B7A00079C666 /* Sc_SpeechNotepadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1ED5E1C1FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepadUITests" */;
+			buildPhases = (
+				E1ED5E091FC6B7A00079C666 /* Sources */,
+				E1ED5E0A1FC6B7A00079C666 /* Frameworks */,
+				E1ED5E0B1FC6B7A00079C666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1ED5E0F1FC6B7A00079C666 /* PBXTargetDependency */,
+			);
+			name = Sc_SpeechNotepadUITests;
+			productName = Sc_SpeechNotepadUITests;
+			productReference = E1ED5E0D1FC6B7A00079C666 /* Sc_SpeechNotepadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1ED5DDE1FC6B7A00079C666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Scorp;
+				TargetAttributes = {
+					E1ED5DE51FC6B7A00079C666 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8TMYG3RBG;
+						ProvisioningStyle = Automatic;
+					};
+					E1ED5E011FC6B7A00079C666 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8TMYG3RBG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1ED5DE51FC6B7A00079C666;
+					};
+					E1ED5E0C1FC6B7A00079C666 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8TMYG3RBG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1ED5DE51FC6B7A00079C666;
+					};
+				};
+			};
+			buildConfigurationList = E1ED5DE11FC6B7A00079C666 /* Build configuration list for PBXProject "Sc_SpeechNotepad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1ED5DDD1FC6B7A00079C666;
+			productRefGroup = E1ED5DE71FC6B7A00079C666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1ED5DE51FC6B7A00079C666 /* Sc_SpeechNotepad */,
+				E1ED5E011FC6B7A00079C666 /* Sc_SpeechNotepadTests */,
+				E1ED5E0C1FC6B7A00079C666 /* Sc_SpeechNotepadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1ED5DE41FC6B7A00079C666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ED5DFC1FC6B7A00079C666 /* LaunchScreen.storyboard in Resources */,
+				E1ED5DF91FC6B7A00079C666 /* Assets.xcassets in Resources */,
+				E1ED5DF41FC6B7A00079C666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5E001FC6B7A00079C666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5E0B1FC6B7A00079C666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1ED5DE21FC6B7A00079C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ED5DF11FC6B7A00079C666 /* ViewController.m in Sources */,
+				E1ED5DF71FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodeld in Sources */,
+				E1ED5DEE1FC6B7A00079C666 /* AppDelegate.m in Sources */,
+				E1ED5DEB1FC6B7A00079C666 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5DFE1FC6B7A00079C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ED5E071FC6B7A00079C666 /* Sc_SpeechNotepadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ED5E091FC6B7A00079C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1ED5E121FC6B7A00079C666 /* Sc_SpeechNotepadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1ED5E041FC6B7A00079C666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1ED5DE51FC6B7A00079C666 /* Sc_SpeechNotepad */;
+			targetProxy = E1ED5E031FC6B7A00079C666 /* PBXContainerItemProxy */;
+		};
+		E1ED5E0F1FC6B7A00079C666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1ED5DE51FC6B7A00079C666 /* Sc_SpeechNotepad */;
+			targetProxy = E1ED5E0E1FC6B7A00079C666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1ED5DF21FC6B7A00079C666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1ED5DF31FC6B7A00079C666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1ED5DFA1FC6B7A00079C666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1ED5DFB1FC6B7A00079C666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1ED5E141FC6B7A00079C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1ED5E151FC6B7A00079C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1ED5E171FC6B7A00079C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1ED5E181FC6B7A00079C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1ED5E1A1FC6B7A00079C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sc_SpeechNotepad.app/Sc_SpeechNotepad";
+			};
+			name = Debug;
+		};
+		E1ED5E1B1FC6B7A00079C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sc_SpeechNotepad.app/Sc_SpeechNotepad";
+			};
+			name = Release;
+		};
+		E1ED5E1D1FC6B7A00079C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sc_SpeechNotepad;
+			};
+			name = Debug;
+		};
+		E1ED5E1E1FC6B7A00079C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S8TMYG3RBG;
+				INFOPLIST_FILE = Sc_SpeechNotepadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scorpio.Sc-SpeechNotepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sc_SpeechNotepad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1ED5DE11FC6B7A00079C666 /* Build configuration list for PBXProject "Sc_SpeechNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED5E141FC6B7A00079C666 /* Debug */,
+				E1ED5E151FC6B7A00079C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1ED5E161FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED5E171FC6B7A00079C666 /* Debug */,
+				E1ED5E181FC6B7A00079C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1ED5E191FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED5E1A1FC6B7A00079C666 /* Debug */,
+				E1ED5E1B1FC6B7A00079C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1ED5E1C1FC6B7A00079C666 /* Build configuration list for PBXNativeTarget "Sc_SpeechNotepadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED5E1D1FC6B7A00079C666 /* Debug */,
+				E1ED5E1E1FC6B7A00079C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1ED5DF51FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1ED5DF61FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodel */,
+			);
+			currentVersion = E1ED5DF61FC6B7A00079C666 /* Sc_SpeechNotepad.xcdatamodel */;
+			path = Sc_SpeechNotepad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1ED5DDE1FC6B7A00079C666 /* Project object */;
+}
